@@ -3,7 +3,7 @@ import { useState } from "react";
 function Num(props){
     return(
         <>
-            <div className="border-2 p-2 rounded-lg w-10" key={props.number}>{props.number}</div>
+            <div className="border-2 p-2 rounded-lg w-10 hover" key={props.number}>{props.number}</div>
         </>
     )
 }
